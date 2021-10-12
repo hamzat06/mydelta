@@ -1,1 +1,65 @@
-@import "../node_modules/uikit/src/less/uikit.less";
+@import "../../../node_modules/uikit/src/less/uikit.less";
+
+@primary: #EE4F39;
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.uk-button-primary {
+  background: @primary !important;
+  color: #fff !important;
+  transition: ease-in-out .4s;
+
+  &:hover {
+    background: #fff !important;
+    color: @primary !important;
+    border: .5px solid @primary;
+  }
+}
+
+.uk-button-outlined-primary {
+  background: #fff !important;
+  color: #333 !important;
+  transition: ease-in-out .4s;
+  border: .5px solid #ddd;
+
+  &:hover {
+    background: @primary !important;
+    color: #fff !important;
+    border: .5px solid @primary;
+  }
+}
+
+.uk-text-semibold {
+  font-weight: 500;
+}
+
+.uk-button-rounded {
+  border-radius: 25px;
+}
+
+.mt-1 {
+  margin-top: .5rem;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: .5rem;
+}
+
+.mb-2 {
+  margin-bottom: 1rem;
+}
+
+.container-sm {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.bg-red {
+  background: #EC4152;
+}
