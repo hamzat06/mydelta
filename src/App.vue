@@ -22,7 +22,7 @@
                         <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true; flip: true;" class="uk-hidden@m">
                           <div class="uk-offcanvas-bar uk-flex uk-flex-column">
                               <button class="uk-offcanvas-close" type="button" uk-close></button>
-                              
+
                               <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
                                   <li><router-link to="/" active-class="uk-active">Home</router-link></li>
                                   <li><router-link to="/about">About Us</router-link></li>
@@ -111,7 +111,7 @@
             </div>
             <hr>
             <div>
-              <div class="uk-child-width-1-2@s" uk-grid>
+              <div class="uk-child-width-1-2@s mb-2" uk-grid>
                 <div>
                   <p>My Delta &copy; 2021 / All Rights Reserved</p>
                 </div>
