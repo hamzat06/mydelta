@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div id="home">
     <section class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="min-height: 300; max-height: 600; animation: push">
 
         <ul class="uk-slideshow-items">
@@ -46,7 +46,7 @@
           <div>
             <h3 class="uk-h1 uk-text-light">Perfect for any business large and small</h3>
             <h5 class="uk-h5 uk-text-light">Prepared do an dissuade be so whatever steepest. Yet her beyond looked either day wished nay. By doubtful disposed</h5>
-            <a href="" class="uk-button uk-button-outlined-primary uk-button-rounded uk-text-semibold uk-margin-small uk-margin-remove-left uk-margin-remove-left">How it works?</a>
+            <a href="" class="uk-button uk-button-outlined-primary uk-button-rounded uk-text-semibold uk-margin">How it works?</a>
           </div>
         </div>
 
@@ -57,7 +57,7 @@
           <div>
             <h3 class="uk-h1 uk-text-light">Business management is now a brand experience</h3>
             <h5 class="uk-h5 uk-text-light">Prepared do an dissuade be so whatever steepest. Yet her beyond looked either day wished nay. By doubtful disposed</h5>
-            <a href="" class="uk-button uk-button-outlined-primary uk-button-rounded uk-text-semibold uk-margin-small uk-margin-remove-left uk-margin-remove-left">Learn more</a>
+            <a href="" class="uk-button uk-button-outlined-primary uk-button-rounded uk-text-semibold uk-margin">Learn more</a>
           </div>
           <div>
             <img src="../assets/images/dummy1.jpeg" alt="">
@@ -74,7 +74,7 @@
           <div>
             <h3 class="uk-h1 uk-text-light">We take care of all details, you get it all covered</h3>
             <h5 class="uk-h5 uk-text-light">Prepared do an dissuade be so whatever steepest. Yet her beyond looked either day wished nay. By doubtful disposed</h5>
-            <a href="" class="uk-button uk-button-outlined-primary uk-button-rounded uk-text-semibold uk-margin-small uk-margin-remove-left uk-margin-remove-left">How it works?</a>
+            <a href="" class="uk-button uk-button-primary uk-button-rounded uk-text-semibold uk-margin">Join us now!</a>
           </div>
         </div>
       </div>

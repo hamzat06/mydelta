@@ -2,13 +2,13 @@
   <div id="app">
     <div class="uk-preserve-color">
 
-        <div uk-sticky="animation: uk-animation-slide-top; sel-target: .navbar; cls-active: uk-background-secondary uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light uk-position-fixed; top: 200">
+        <div uk-sticky="animation: uk-animation-slide-top; sel-target: .navbar; cls-active: uk-background-secondary uk-navbar-sticky uk-box-shadow-small; cls-inactive: uk-navbar-transparent uk-light uk-position-fixed; top: 200">
 
             <nav class="navbar">
                 <div class="uk-container uk-container-expand">
                     <div uk-navbar>
                       <div class="uk-navbar-left">
-                        <router-link to="/" class="uk-navbar-item uk-logo uk-text-bold uk-text-light">MyDelta</router-link>
+                        <router-link to="/" class="uk-navbar-item uk-logo uk-text-bold uk-light">MyDelta</router-link>
                       </div>
                       <div class="uk-navbar-right">
                         <ul class="uk-navbar-nav uk-text-semibold">
@@ -16,7 +16,7 @@
                             <li><router-link to="/about">About Us</router-link></li>
                             <li><router-link to="/services">Services</router-link></li>
                             <li><router-link to="/clients">Clients</router-link></li>
-                            <li><router-link to="/contact">Our Contacts</router-link></li>
+                            <li><router-link to="/contact">Contact Us</router-link></li>
                         </ul>
                       </div>
 
@@ -31,13 +31,13 @@
           <div class="uk-container">
             <div class="uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m" uk-grid>
               <div>
-                <router-link to="/" class="uk-logo uk-text-bold uk-text-light">MyDelta</router-link>
+                <router-link to="/" class="uk-logo uk-text-bold uk-light uk-h3">MyDelta</router-link>
               </div>
               <div>
-                <h3 class="uk-h4 uk-text-light">Product</h3>
+                <h3 class="uk-h4 uk-text">Product</h3>
                 <ul class="uk-list">
                   <li>
-                    <a href="" class="uk-text-light uk-button uk-button-link">About Us</a>
+                    <a href="" class="uk-text-light uk-button uk-button-link">About App</a>
                   </li>
                   <li>
                     <a href="" class="uk-text-light uk-button uk-button-link">Jobs</a>
@@ -54,10 +54,10 @@
                 </ul>
               </div>
               <div>
-                <h3 class="uk-h4 uk-text-light">Company</h3>
-                <ul class="uk-list uk-dark">
+                <h3 class="uk-h4">Company</h3>
+                <ul class="uk-list">
                   <li>
-                    <a href="" class="uk-text-light uk-button uk-button-link">About App</a>
+                    <a href="" class="uk-text-light uk-button uk-button-link">About Us</a>
                   </li>
                   <li>
                     <a href="" class="uk-text-light uk-button uk-button-link">Features</a>
@@ -74,8 +74,8 @@
                 </ul>
               </div>
               <div>
-                <h3 class="uk-h4 uk-text-light">Social</h3>
-                <ul class="uk-list uk-dark">
+                <h3 class="uk-h4">Social</h3>
+                <ul class="uk-list">
                   <li>
                     <a href="" class="uk-text-light uk-button uk-button-link">Twitter</a>
                   </li>
@@ -98,11 +98,11 @@
             <div class="uk-flex uk-flex-between">
               <p>My Delta &copy; 2021 / All Rights Reserved</p>
               <div>
-                <a href="">fb icon</a> -
-                <a href="">go icon</a> -
-                <a href="">ins icon</a> -
-                <a href="">tw icon</a> -
-                <a href="">yt icon</a>
+                <a href="" uk-icon="icon: facebook" class="uk-margin-small-right"></a>
+                <a href="" uk-icon="icon: google" class="uk-margin-small-right"></a>
+                <a href="" uk-icon="icon: instagram" class="uk-margin-small-right"></a>
+                <a href="" uk-icon="icon: twitter" class="uk-margin-small-right"></a>
+                <a href="" uk-icon="icon: youtube" class="uk-margin-small-right"></a>
               </div>
             </div>
           </div>
@@ -138,6 +138,10 @@ nav {
       color: #fff !important;
     }
   }
+}
+
+footer {
+  color: #D3D4D4 !important;
 }
 
 // #nav {
