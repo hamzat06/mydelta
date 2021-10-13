@@ -19,20 +19,20 @@
     </section>
 
     <section class="uk-section">
-      <div class="uk-container">
+      <div class="uk-container uk-padding-large">
         <h2 class="uk-h1 uk-text-light uk-text-center">Let’s talk about everything!</h2>
         <div class="container-sm">
           <form class="uk-form-stacked" @submit.prevent>
             <div class="uk-grid-small uk-grid">
-              <div class="uk-width-1-3@s uk-margin-small">
+              <div class="uk-width-1-3@s mb-3">
                 <label class="uk-form-label">Name</label>
-                <input class="uk-input input-rounded" type="text" placeholder="John Doe">
+                <input class="uk-input input-rounded" type="email" placeholder="John Doe">
               </div>
-              <div class="uk-width-1-3@s uk-margin-small">
+              <div class="uk-width-1-3@s mb-3">
                 <label class="uk-form-label">Email</label>
                 <input class="uk-input input-rounded" type="email" placeholder="johndoe@email.com">
               </div>
-              <div class="uk-width-1-3@s uk-margin-small">
+              <div class="uk-width-1-3@s mb-3">
                 <label class="uk-form-label">Phone</label>
                 <input class="uk-input input-rounded" type="number" placeholder="+234-9012345678">
               </div>
