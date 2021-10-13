@@ -24,11 +24,11 @@
                               <button class="uk-offcanvas-close" type="button" uk-close></button>
 
                               <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-                                  <li><router-link to="/" active-class="uk-active">Home</router-link></li>
-                                  <li><router-link to="/about">About Us</router-link></li>
-                                  <li><router-link to="/services">Services</router-link></li>
-                                  <li><router-link to="/clients">Clients</router-link></li>
-                                  <li><router-link to="/contact">Contact Us</router-link></li>
+                                  <li><router-link to="/" uk-toggle="target: #offcanvas-nav-primary">Home</router-link></li>
+                                  <li><router-link to="/about" uk-toggle="target: #offcanvas-nav-primary">About Us</router-link></li>
+                                  <li><router-link to="/services" uk-toggle="target: #offcanvas-nav-primary">Services</router-link></li>
+                                  <li><router-link to="/clients" uk-toggle="target: #offcanvas-nav-primary">Clients</router-link></li>
+                                  <li><router-link to="/contact" uk-toggle="target: #offcanvas-nav-primary">Contact Us</router-link></li>
                               </ul>
 
                           </div>
