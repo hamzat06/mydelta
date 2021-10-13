@@ -123,7 +123,7 @@
     </section>
 
     <section>
-      <div class="uk-container uk-padding uk-margin-large uk-margin-remove-top">
+      <div class="uk-container uk-padding-large uk-margin-large uk-margin-remove-top">
         <h2 class="uk-h1 uk-text-light uk-text-center">Company</h2>
         <div uk-grid class="uk-margin-large">
           <div class="uk-width-1-6@s">
