@@ -23,13 +23,13 @@ export default {
 
   img {
     width: 100%;
-    max-height: 600px;
+    max-height: 400px;
   }
 }
 
 h1 {
   position: relative;
-  bottom: 300px;
+  bottom: 200px;
   @media only screen and (max-width: 1024px) {
     bottom: 200px;
   }
