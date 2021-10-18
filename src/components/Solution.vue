@@ -1,5 +1,5 @@
 <template>
-  <section class="uk-section uk-section-primary uk-margin-remove-top" id="solution" uk-scrollspy="cls: uk-animation-fade; target: .uk-container; delay: 300;">
+  <section class="uk-section uk-section-primary uk-margin-remove-top" id="solution">
   <div class="uk-container">
     <div class="uk-grid-collapse uk-child-width-expand@s uk-padding uk-padding-remove-top uk-padding-remove-bottom" uk-grid>
         <div id="contact-us-text">
