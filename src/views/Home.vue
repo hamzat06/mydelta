@@ -1,6 +1,6 @@
 <template>
   <div id="home">
-    <section class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="min-height: 300; max-height: 600; animation: push">
+    <section class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="autoplay: true; min-height: 300; max-height: 600; animation: push">
 
         <ul class="uk-slideshow-items">
             <li>
