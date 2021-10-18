@@ -1,7 +1,7 @@
 <template>
   <div id="about">
     <section>
-      <shared-header pageTitle="About Us" />
+      <shared-header pageTitle="About Us" headerImage="image11.jpg" />
     </section>
     <section class="uk-margin-large">
       <div class="uk-container uk-padding-large">
@@ -13,7 +13,7 @@
           </div>
           
           <div>
-            <img src="../assets/images/dummy1.jpeg" alt="">
+            <img src="../assets/images/image6.jpg" alt="">
           </div>
         </div>
       </div>

@@ -1,7 +1,8 @@
 <template>
-  <div class="header-container">
-    <img src="../assets/images/dummy1.jpeg" alt="">
-    <div class="uk-text-center">
+  <div class="header-container uk-padding-large uk-cover-container">
+    <img :src="require(`../assets/images/${headerImage}`)" alt="" uk-cover>
+    <div class="uk-overlay-primary uk-position-cover"></div>
+    <div class="uk-text-center uk-padding-large">
       <h1 class="text-white uk-h1 uk-text-light">{{ pageTitle }}</h1>
     </div>
   </div>
@@ -11,7 +12,8 @@
 export default {
   name: 'SharedHeader',
   props: {
-    pageTitle: String
+    pageTitle: String,
+    headerImage: String
   }
 }
 </script>
@@ -20,11 +22,6 @@ export default {
 .header-container {
   width: 100%;
   overflow: hidden;
-
-  img {
-    width: 100%;
-    max-height: 400px;
-  }
 }
 
 h1 {

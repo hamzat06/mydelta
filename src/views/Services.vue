@@ -1,6 +1,6 @@
 <template>
   <div id="services">
-    <shared-header pageTitle="Services" />
+    <shared-header pageTitle="Services" headerImage="image3.jpg" />
 
     <section>
       <div class="uk-container uk-padding-large">
@@ -10,7 +10,7 @@
         </div>
         <div class="uk-child-width-1-2@s uk-padding" uk-grid>
           <div>
-            <img src="../assets/images/dummy1.jpeg" alt="">
+            <img src="../assets/images/image6.jpg" alt="">
           </div>
           <div>
             <h3 class="uk-h1 uk-text-light">Web Development</h3>
@@ -27,7 +27,7 @@
             <h5 class="uk-h5 uk-text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, ad quos omnis tenetur facilis sit repellat dolores dignissimos alias enim dicta? Consequatur fugit illo eligendi ducimus minima nisi ratione cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident est dolore laboriosam atque amet, maxime possimus accusamus odit libero minima quas distinctio, autem nostrum necessitatibus, voluptates corrupti mollitia quasi minus!</h5>
           </div>
           <div>
-            <img src="../assets/images/dummy1.jpeg" alt="">
+            <img src="../assets/images/image12.jpg" alt="">
           </div>
         </div>
 
@@ -36,7 +36,7 @@
         </div>
         <div class="uk-child-width-1-2@s uk-padding" uk-grid>
           <div>
-            <img src="../assets/images/dummy1.jpeg" alt="">
+            <img src="../assets/images/image2.jpg" alt="">
           </div>
           <div>
             <h3 class="uk-h1 uk-text-light">Cloud Maintenance</h3>

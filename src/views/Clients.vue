@@ -1,6 +1,6 @@
 <template>
   <div id="clients">
-    <shared-header pageTitle="Our Clients"/>
+    <shared-header pageTitle="Our Clients" headerImage="image7.jpg" />
     <section>
       <div class="uk-container uk-padding-large">
         <div uk-filter="target: .js-filter">

@@ -1,12 +1,12 @@
 <template>
   <div id="contact">
-    <shared-header pageTitle="Contact Us" />
+    <shared-header pageTitle="Contact Us" headerImage="image8.jpg" />
 
     <section class="uk-section">
       <div class="uk-container uk-padding-large">
         <div class="uk-child-width-1-2@s" uk-grid>
           <div>
-            <img src="../assets/images/dummy1.jpeg" alt="">
+            <img src="../assets/images/image5.jpg" alt="">
           </div>
           <div class="uk-padding">
             <h2 class="uk-h1 uk-text-light">Want to work with us?</h2>
@@ -22,7 +22,7 @@
       <div class="uk-container uk-padding-large">
         <h2 class="uk-h1 uk-text-light uk-text-center">Let’s talk about everything!</h2>
         <div class="container-sm">
-          <form class="uk-form-stacked" @submit.prevent>
+          <form class="uk-form-stacked" @submit.prevent="sendMessage">
             <div class="uk-grid-small uk-grid">
               <div class="uk-width-1-3@s mb-3">
                 <label class="uk-form-label">Name</label>
@@ -41,7 +41,7 @@
                 <textarea class="uk-textarea input-rounded" rows="5" placeholder="Your message"></textarea>
               </div>
             </div>
-            <button class="uk-button uk-button-primary uk-button-rounded uk-text-center uk-margin" type="submit">Submit comment</button>
+            <button class="uk-button uk-button-primary uk-button-rounded uk-text-center uk-margin" type="submit">Submit message</button>
           </form>
         </div>
       </div>
@@ -51,11 +51,17 @@
 
 <script>
 import SharedHeader from '../components/SharedHeader.vue'
+import UIkit from 'uikit'
 
 export default {
   name: 'Contact',
   components: {
     SharedHeader
+  },
+  methods: {
+    sendMessage() {
+      UIkit.notification({message:'<span uk-icon=\'icon: check\'></span> Message sent', pos: 'top-right'}, {status:'success'})
+    }
   }
 }
 </script>

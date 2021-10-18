@@ -4,8 +4,8 @@
 
         <ul class="uk-slideshow-items">
             <li>
-                <img src="../assets/images/dummy1.jpeg" alt="" uk-cover>
-                <!-- <div class="uk-overlay-primary uk-position-cover"></div> -->
+                <img src="../assets/images/image10.jpg" alt="" uk-cover>
+                <div class="uk-overlay-primary uk-position-cover"></div>
                 <div class="uk-position-center uk-text-center">
                     <h2 uk-slider-parallax="x: 100,-100">First Slide</h2>
                     <p uk-slider-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</p>
@@ -15,18 +15,28 @@
                 </div>
             </li>
             <li>
-                <img src="../assets/images/dummy1.jpeg" alt="" uk-cover>
+                <img src="../assets/images/image6.jpg" alt="" uk-cover>
+                <div class="uk-overlay-primary uk-position-cover"></div>
                 <div class="uk-position-center">
 
-                  <h1>Second Slide</h1>
+                    <h2 uk-slider-parallax="x: 100,-100">Second Slide</h2>
+                    <p uk-slider-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</p>
+                    <div>
+                      <a href="" class="uk-button uk-button-primary uk-button-rounded">Join Us</a>
+                    </div>
 
                 </div>
             </li>
             <li>
-                <img src="../assets/images/dummy1.jpeg" alt="" uk-cover>
+                <img src="../assets/images/image5.jpg" alt="" uk-cover>
+                <div class="uk-overlay-primary uk-position-cover"></div>
                 <div class="uk-position-center">
 
-                  <h1>Third Slide</h1>
+                    <h2 uk-slider-parallax="x: 100,-100">Third Slide</h2>
+                    <p uk-slider-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</p>
+                    <div>
+                      <a href="" class="uk-button uk-button-primary uk-button-rounded">Join Us</a>
+                    </div>
 
                 </div>
             </li>
@@ -41,7 +51,7 @@
         </div>
         <div class="uk-child-width-1-2@s uk-padding" uk-grid>
           <div>
-            <img src="../assets/images/dummy1.jpeg" alt="">
+            <img src="../assets/images/image2.jpg" alt="">
           </div>
           <div>
             <h3 class="uk-h1 uk-text-light">Perfect for any business large and small</h3>
@@ -60,7 +70,7 @@
             <a href="" class="uk-button uk-button-outlined-primary uk-button-rounded uk-text-semibold uk-margin">Learn more</a>
           </div>
           <div>
-            <img src="../assets/images/dummy1.jpeg" alt="">
+            <img src="../assets/images/image3.jpg" alt="">
           </div>
         </div>
 
@@ -69,7 +79,7 @@
         </div>
         <div class="uk-child-width-1-2@s uk-padding" uk-grid>
           <div>
-            <img src="../assets/images/dummy1.jpeg" alt="">
+            <img src="../assets/images/image11.jpg" alt="">
           </div>
           <div>
             <h3 class="uk-h1 uk-text-light">We take care of all details, you get it all covered</h3>
@@ -133,7 +143,7 @@
           <p class="uk-margin-large">Still don’t get it? Read more in our help article</p>
         </div>
         <div>
-          <img src="../assets/images/dummy2.jpeg" alt="">
+          <img src="../assets/images/image7.jpg" alt="">
         </div>
       </div>
     </section>
