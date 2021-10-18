@@ -6,19 +6,20 @@
       <div class="uk-container uk-padding-large">
         <div class="uk-child-width-1-2@s" uk-grid>
           <div>
-            <img src="../assets/images/image5.jpg" alt="">
+            <img src="../assets/images/image4.jpg" alt="">
           </div>
           <div class="uk-padding">
             <h2 class="uk-h1 uk-text-light">Want to work with us?</h2>
             <h5 class="uk-h4 uk-text-light uk-margin-small">
-              Do you want to personally try out the VR? Find out where you can experience the headset and games for  VR near you.
+              You can contact us to talk more on your projects. We will respond to you in less than 24 hours.
             </h5>
+            <a href="#contact-form" class="uk-button uk-button-primary uk-margin uk-button-rounded">Scroll Down</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="uk-section">
+    <section class="uk-section" id="contact-form">
       <div class="uk-container uk-padding-large">
         <h2 class="uk-h1 uk-text-light uk-text-center">Let’s talk about everything!</h2>
         <div class="container-sm">

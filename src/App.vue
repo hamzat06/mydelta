@@ -113,7 +113,7 @@
             <div>
               <div class="uk-child-width-1-2@s mb-2" uk-grid>
                 <div>
-                  <p>My Delta &copy; 2021 / All Rights Reserved</p>
+                  <p>My Delta &copy; {{ new Date().getFullYear() }} / All Rights Reserved</p>
                 </div>
                 <div class="align-right-small">
                   <a href="" uk-icon="icon: facebook" class="uk-margin-small-right"></a>

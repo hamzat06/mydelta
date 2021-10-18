@@ -34,17 +34,19 @@
         </div>
       </div>
     </section>
-    
+    <solution/>
   </div>
 </template>
 
 <script>
 import SharedHeader from '../components/SharedHeader.vue'
+import Solution from '../components/Solution.vue'
 
 export default {
   name: 'Clients',
   components: {
-    SharedHeader
+    SharedHeader,
+    Solution
   },
   data: () => ({
       clients: [

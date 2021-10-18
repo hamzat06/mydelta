@@ -1,7 +1,9 @@
 <template>
-  <div class="header-container uk-padding-large uk-cover-container">
+  <div class="header-container uk-cover-container">
     <img :src="require(`../assets/images/${headerImage}`)" alt="" uk-cover>
     <div class="uk-overlay-primary uk-position-cover"></div>
+    <section class="uk-section" id="about-header">
+    </section>
     <div class="uk-text-center uk-padding-large">
       <h1 class="text-white uk-h1 uk-text-light">{{ pageTitle }}</h1>
     </div>
@@ -26,17 +28,13 @@ export default {
 
 h1 {
   position: relative;
-  bottom: 200px;
+  bottom: 70px;
   @media only screen and (max-width: 1024px) {
-    bottom: 200px;
+    bottom: 50px;
   }
 
-  @media only screen and (max-width: 600px) {
-    bottom: 90px;
-  }
-
-  @media only screen and (max-width: 400) {
-    bottom: 45px;
+  @media only screen and (max-width: 959px) {
+    bottom: 30px;
   }
 }
 </style>

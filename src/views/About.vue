@@ -7,9 +7,10 @@
       <div class="uk-container uk-padding-large">
         <div class="uk-child-width-1-2@s" uk-grid>
           <div>
-            <h3 class="uk-h1 uk-text-light">We create beautiful things</h3>
-            <h5 class="uk-h5 uk-text-light">Do you want to personally try out the VR? Find out where you can experience the headset and games for  VR near you.</h5>
-            <a href="" class="uk-button uk-button-primary uk-button-rounded uk-margin">Learn more</a>
+            <h3 class="uk-h1 uk-text-light">Company's Overview</h3>
+            <h5 class="uk-h5 uk-text-light">Our mission is to help enterprises accelerate adoption of new technologies, untangle complex issues that always emerge during digital evolution, and orchestrate ongoing innovation. 
+            <br/><br/>
+            Whether it is a consumer-oriented app or a transformative enterprise-class solution, the company leads the process from ideation and concept to delivery, and provides ongoing support</h5>
           </div>
           
           <div>
@@ -23,7 +24,7 @@
       <div class="uk-container uk-padding-large">
         <div class="container-sm uk-text-center">
           <h2 class="uk-h1 uk-text-light">Meet our team</h2>
-          <h5 class="uk-h5 uk-text-light">Do you want to personally try out the VR? Find out where you can experience the headset and games for  VR near you.</h5>
+          <h5 class="uk-h5 uk-text-light">Meet out dedicated team </h5>
         </div>
         <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center uk-margin-large" uk-grid>
           <div>
@@ -96,7 +97,7 @@
       </div>
     </section>
 
-    <section class="uk-section uk-section-muted uk-margin-large">
+    <section class="uk-section uk-section-muted uk-margin-large uk-margin-remove-bottom">
       <div class="uk-container uk-padding-large">
         <div class="container-sm uk-text-center">
           <h2 class="uk-h1 uk-text-light">Meet Our Founder</h2>
@@ -122,44 +123,19 @@
       </div>
     </section>
 
-    <section>
-      <div class="uk-container uk-padding-large uk-margin-large uk-margin-remove-top">
-        <h2 class="uk-h1 uk-text-light uk-text-center">Company</h2>
-        <div uk-grid class="uk-margin-large">
-          <div class="uk-width-1-6@s">
-            <ul class="uk-tab-left" uk-tab="connect: #component-tab-left; animation: uk-animation-fade">
-              <li><a href="#">Active</a></li>
-              <li><a href="#">Item</a></li>
-              <li><a href="#">Item</a></li>
-            </ul>
-          </div>
-          <div class="uk-width-5-6@s border-left border-bottom uk-padding uk-padding-remove-top uk-padding-remove-right">
-            <ul id="component-tab-left" class="uk-switcher">
-              <li class="uk-text-light">
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat. Lorem ipsum dolor sit amet, cosectetuer adipiscing elit, sed diam nonummy nibh euismodtincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat. Lorem ipsum dolor sit amet, cosectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse.
-              </li>
-              
-              <li class="uk-text-light">
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat. Lorem ipsum dolor sit amet, cosectetuer adipiscing elit, sed diam nonummy nibh euismodtincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat. Lorem ipsum dolor sit amet, cosectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse.
-              </li>
-              <li class="uk-text-light">
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat. Lorem ipsum dolor sit amet, cosectetuer adipiscing elit, sed diam nonummy nibh euismodtincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat. Lorem ipsum dolor sit amet, cosectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+    <solution />
   </div>
 </template>
 
 <script>
 import SharedHeader from '../components/SharedHeader.vue'
+import Solution from '../components/Solution.vue'
 
 export default {
   name: 'About',
   components: {
-    SharedHeader
+    SharedHeader,
+    Solution
   }
 }
 </script>
