@@ -2,8 +2,8 @@
   <div id="contact">
     <shared-header pageTitle="Contact Us" headerImage="image8.jpg" />
 
-    <section class="uk-section">
-      <div class="uk-container uk-padding-large">
+    <section class="uk-section uk-margin-remove-bottom uk-padding-remove-bottom">
+      <div class="uk-container uk-padding-large uk-padding-remove-bottom">
         <div class="uk-child-width-1-2@s" uk-grid>
           <div>
             <img src="../assets/images/image4.jpg" alt="">
@@ -19,8 +19,12 @@
       </div>
     </section>
 
-    <section class="uk-section" id="contact-form">
-      <div class="uk-container uk-padding-large">
+    <div class="uk-text-center uk-margin">
+      <img src="../assets/images/line1.jpeg" alt="">
+    </div>
+
+    <section id="contact-form">
+      <div class="uk-container uk-padding-large uk-padding-remove-top">
         <h2 class="uk-h1 uk-text-light uk-text-center">Let’s talk about everything!</h2>
         <div class="container-sm">
           <form class="uk-form-stacked" @submit.prevent="sendMessage">

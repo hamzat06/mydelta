@@ -52,19 +52,19 @@
                 <h3 class="uk-h4 uk-text">Product</h3>
                 <ul class="uk-list">
                   <li>
-                    <a href="" class="uk-text-light uk-button uk-button-link">About App</a>
+                    <router-link to="/services/#ux-ui" class="uk-text-light uk-button uk-button-link">UX/UI Design</router-link>
                   </li>
                   <li>
-                    <a href="" class="uk-text-light uk-button uk-button-link">Jobs</a>
+                    <router-link to="/services/#web" class="uk-text-light uk-button uk-button-link">Web Development</router-link>
                   </li>
                   <li>
-                    <a href="" class="uk-text-light uk-button uk-button-link">Contact Us</a>
+                    <router-link to="/services/#mobile" class="uk-text-light uk-button uk-button-link">Mobile App Development</router-link>
                   </li>
                   <li>
-                    <a href="" class="uk-text-light uk-button uk-button-link">Legal</a>
+                    <router-link to="/services/#it-consulting" class="uk-text-light uk-button uk-button-link">IT Consulting</router-link>
                   </li>
                   <li>
-                    <a href="" class="uk-text-light uk-button uk-button-link">Help and support</a>
+                    <router-link to="/services/#enterprise" class="uk-text-light uk-button uk-button-link">Enterprise Software</router-link>
                   </li>
                 </ul>
               </div>
@@ -72,19 +72,19 @@
                 <h3 class="uk-h4">Company</h3>
                 <ul class="uk-list">
                   <li>
-                    <a href="" class="uk-text-light uk-button uk-button-link">About Us</a>
+                    <router-link to="/" class="uk-text-light uk-button uk-button-link">Home</router-link>
                   </li>
                   <li>
-                    <a href="" class="uk-text-light uk-button uk-button-link">Features</a>
+                    <router-link to="/about" class="uk-text-light uk-button uk-button-link">About Us</router-link>
                   </li>
                   <li>
-                    <a href="" class="uk-text-light uk-button uk-button-link">Technology</a>
+                    <router-link to="/services" class="uk-text-light uk-button uk-button-link">Services</router-link>
                   </li>
                   <li>
-                    <a href="" class="uk-text-light uk-button uk-button-link">Store</a>
+                    <router-link to="/clients" class="uk-text-light uk-button uk-button-link">Clients</router-link>
                   </li>
                   <li>
-                    <a href="" class="uk-text-light uk-button uk-button-link">Help and support</a>
+                    <router-link to="/contact" class="uk-text-light uk-button uk-button-link">Contact Us</router-link>
                   </li>
                 </ul>
               </div>

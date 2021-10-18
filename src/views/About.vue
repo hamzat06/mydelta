@@ -82,43 +82,6 @@
               <a href="" uk-icon="icon: youtube"></a>
             </div>
           </div>
-          <div>
-            <img src="../assets/images/dummy3.jpeg" alt="" class="uk-border-circle">
-            <h3 class="uk-h3 uk-text-light uk-margin-remove">Roger Phillips</h3>
-            <h6 class="uk-h6 uk-text-light uk-margin-remove-top">Web Designer</h6>
-            <div>
-              <a href="" uk-icon="icon: twitter" class="uk-margin-small-right"></a>
-              <a href="" uk-icon="icon: facebook" class="uk-margin-small-right"></a>
-              <a href="" uk-icon="icon: google" class="uk-margin-small-right"></a>
-              <a href="" uk-icon="icon: youtube"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="uk-section uk-section-muted uk-margin-large uk-margin-remove-bottom">
-      <div class="uk-container uk-padding-large">
-        <div class="container-sm uk-text-center">
-          <h2 class="uk-h1 uk-text-light">Meet Our Founder</h2>
-          <h5 class="uk-h5 uk-text-light">Do you want to personally try out the VR? Find out where you can experience the headset and games for VR near you.</h5>
-        </div>
-
-        <div uk-grid class="uk-margin-large">
-          <div class="uk-width-1-4@s">
-            <img src="../assets/images/dummy3.jpeg" alt="">
-          </div>
-          <div class="uk-width-3-4@s">
-            <h3 class="uk-h1 uk-text-light">Bryce Vaughn</h3>
-            <h6 class="uk-h6 uk-margin-small">MyDelta Founder</h6>
-            <h5 class="uk-h5 uk-text-light">Etiam eu molestie eros, commodo hendrerit sapien. Maecenas tempus leo ac nisi iaculis porta. Sed sapien tortor, aliquet a velit ut, lacinia molestie velit. Maecenas ornare consequat massa ullamcorper dapibus. Etiam eu molestie eros, commodo hendrerit sapien. Maecenas tempus leo ac nisi iaculis porta. Sed sapien tortor, aliquet a velit ut, lacinia molestie velit. Maecenas ornare consequat massa ullamcorper dapibus.</h5>
-            <div>
-              <a href="" uk-icon="icon: twitter" class="uk-margin-small-right"></a>
-              <a href="" uk-icon="icon: facebook" class="uk-margin-small-right"></a>
-              <a href="" uk-icon="icon: google" class="uk-margin-small-right"></a>
-              <a href="" uk-icon="icon: youtube"></a>
-            </div>
-          </div>
         </div>
       </div>
     </section>
